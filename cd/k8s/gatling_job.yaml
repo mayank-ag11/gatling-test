@@ -10,8 +10,8 @@ spec:
 
       containers:
         - name: gatling
-          image: anuragsinghai2010/ent-gatling-test:latest
-          imagePullPolicy: Always
+          image: gatling-test-local:1.0.0
+          imagePullPolicy: IfNotPresent
 
           volumeMounts:
             - name: gatling-reports

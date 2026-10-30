@@ -43,3 +43,8 @@ bin/
 
 ##Intellij##
 .idea
+
+### Local corporate CA certs (machine-specific, keychain-exported) ###
+certs/
+gatling-reports/
+CLAUDE.md
